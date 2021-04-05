@@ -75,7 +75,7 @@ Users can also install Docker and Singularity prior to attending the tutorial se
 
 ## Questions
 
-You can ask questions verbally or with this [Google Doc](https://docs.google.com/document/d/11gMZ-T7iA5XiRWPLYIqX7Gqv7RMb-NF9kzGYHrnOi04/edit?usp=sharing).
+You can ask questions verbally or with this [Google Doc](https://docs.google.com/document/d/1rmi5tSuk_7Q5YVDS1SD7TcxjoEYFgXK-ofvUV2jmL4Y/edit?usp=sharing).
 Please append your question below the others in the document.
 
 We have also created a Slack Team for this.  The invitation link is [here](https://join.slack.com/t/hpc-containers/shared_invite/enQtODI3NzY1NDU4OTk5LTUxOTgyOWJmYjIwOWI5YWU2MzBhZDI3Zjc1YmZmMjAxZjgzYzk4ZWEwNmFlNzlkOWI0MGNlZDNlMTBhYTBlOWY).
@@ -89,4 +89,8 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 
 13:30 – 13:45 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
 
-14:00 - 14:30 [How to use Singularity to run on a supercomuter](/03-hands-on.md) (Younge)
+13:45 - 14:05 [How to use Singularity to run on a supercomuter](/03-hands-on.md) (Younge)
+
+14:05 - 14:15 Containers and E4S (Shende)
+
+14:15 - 14:30 Best Practices and Wrap Up (Canon)
