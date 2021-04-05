@@ -24,25 +24,21 @@ Keywords: Containerized HPC, System Software and Runtime Systems, Scientific Sof
 
 ## Tutorial Login details
 
-Appropriate login details to our EC2 VM instances and a training account to the Cori supercomputer will all be provided to you at the start of the tutorial session. Please completed the necessary forms and  replace XX with the values provided on your sheet. 
+Appropriate login details to our EC2 VM instances and an (optional) training account to the Cori supercomputer will all be provided to you at the start of the tutorial session. Please claim an instant in the table in the Questions Googlde Doc (link below).
 
 ### EC2 Login
-
 
 hostname: tutXX.supercontainers.org
 
 user: tutorial
 
-password: HPCLinux12!
+password: Will be provided
 
 ### NERSC Login
 
 hostname: cori.nesrc.gov
 
-user: trainXX
-
-password: [provided in person]
-
+Sign Up; Go to [this page](https://iris.nersc.gov/train) to sign up for the account.  Use training code *dJ2d*.  If you already have a NERSC account, you can use that account.
 
 ## Abstract
 
