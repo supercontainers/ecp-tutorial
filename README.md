@@ -79,7 +79,7 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 ## Schedule
 
 
-13:00 – 13:15 [Introduction to Containers in HPC](https://drive.google.com/file/d/1-Zszgfs3PZZUH88XGHy5TrW6jggyh81W/view?usp=sharing){:target="_blank"} (Younge)
+13:00 – 13:15 [Introduction to Containers in HPC](https://drive.google.com/file/d/1-Zszgfs3PZZUH88XGHy5TrW6jggyh81W/view?usp=sharing) (Younge)
 
 13:15 – 13:30 [How to build your first Docker container](/01-hands-on.md) (Canon)
 
@@ -89,4 +89,4 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 
 14:05 - 14:15 Containers and E4S (Shende)
 
-14:15 - 14:30 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing){:target="_blank"} (Canon)
+14:15 - 14:30 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
