@@ -89,4 +89,4 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 
 14:05 - 14:15 Containers and E4S (Shende)
 
-14:15 - 14:30 Best Practices and Wrap Up (Canon)
+14:15 - 14:30 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
