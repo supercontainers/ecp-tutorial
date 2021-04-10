@@ -56,12 +56,12 @@ singularity build nersc_ubuntu.sif docker://nersc/ubuntu-mpi:14.04
 
 ### Building from a recipe file
 
-The Singularity source code contains several example definition files in the `/examples` subdirectory.  For more documentation about the singularity definition file you can go [here](https://sylabs.io/guides/3.4/user-guide/definition_files.html)
+The Singularity source code contains several example definition files in this repo's `/examples` subdirectory.  For more documentation about the singularity definition file you can go [here](https://sylabs.io/guides/3.4/user-guide/definition_files.html)
 
 **Note:** You need to build containers on a file system where the sudo command can write files as root. This may not work in an HPC cluster setting if your home directory resides on a shared file server. If that's the case you may have to to `cd` to a local hard disk such as `/tmp`.
 
 ```bash
-mkdir /ecp-tutorial
+mkdir ecp-tutorial
 cd ecp-tutorial
 vim ubuntu-mpi.def
 ```
@@ -231,4 +231,13 @@ Now let's run our container!
 ```bash
 singularity run hellompi.sif
 hello from 0 of 1 on ip-172-31-15-228
+```
+
+We can use MPI from outside of the container to execute our container application as well! 
+
+Note that this setup will be different on a real supercomputing resource, where you will likely need to integrate with SLURM or another job manager. For the example below, we already have MPI installed and configured on our EC2 instance.
+
+
+```bash
+mpirun -np 4 singularity run hellompi.sif
 ```
