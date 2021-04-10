@@ -24,7 +24,7 @@ Keywords: Containerized HPC, System Software and Runtime Systems, Scientific Sof
 
 ## Tutorial Login details
 
-Appropriate login details to our EC2 VM instances and an (optional) training account to the Cori supercomputer will all be provided to you at the start of the tutorial session. Please claim an instant in the table in the Questions Googlde Doc (link below).
+Appropriate login details to our EC2 VM instances and an (optional) training account to the Cori supercomputer will all be provided to you at the start of the tutorial session. Please claim your own instance in the table at the bottom of the [Google Doc](https://docs.google.com/document/d/1rmi5tSuk_7Q5YVDS1SD7TcxjoEYFgXK-ofvUV2jmL4Y/edit?usp=sharing)
 
 ### EC2 Login
 
@@ -48,7 +48,7 @@ This is an short version of the highly successful tutorial presented at multiple
 
 ## Prerequisites
 
-This is a hands-on tutorial. Participants will need and/or ssh client to make best use of time during the tutorial.  We will be providing training user accounts to both pre-configured EC2 instances as well as the Cori Supercomputer at NERSC.
+This is a hands-on tutorial. Participants will need a laptop/workstation with an ssh client to make best use of time during the tutorial.  We will be providing training user accounts to both pre-configured EC2 instances as well as the Cori Supercomputer at NERSC.
 
 <div style="text-align:center"><img src="images/AWS_logo.png" width="250"></div>
 
@@ -65,8 +65,6 @@ Users can also install Docker and Singularity prior to attending the tutorial se
 
 [Install Singularity on Linux](https://sylabs.io/guides/3.3/user-guide/)
 
-[Install Singualrity on Mac](https://repo.sylabs.io/desktop/) (Alpha)
-
 [Install Docker for Desktop](https://www.docker.com/products/docker-desktop)
 
 ## Questions
@@ -74,7 +72,7 @@ Users can also install Docker and Singularity prior to attending the tutorial se
 You can ask questions verbally or with this [Google Doc](https://docs.google.com/document/d/1rmi5tSuk_7Q5YVDS1SD7TcxjoEYFgXK-ofvUV2jmL4Y/edit?usp=sharing).
 Please append your question below the others in the document.
 
-We have also created a Slack Team for this.  The invitation link is [here](https://join.slack.com/t/hpc-containers/shared_invite/enQtODI3NzY1NDU4OTk5LTUxOTgyOWJmYjIwOWI5YWU2MzBhZDI3Zjc1YmZmMjAxZjgzYzk4ZWEwNmFlNzlkOWI0MGNlZDNlMTBhYTBlOWY).
+We have also created a Slack Team for any and all related HPC container discussions.  The invitation link is [here](https://join.slack.com/t/hpc-containers/shared_invite/enQtODI3NzY1NDU4OTk5LTUxOTgyOWJmYjIwOWI5YWU2MzBhZDI3Zjc1YmZmMjAxZjgzYzk4ZWEwNmFlNzlkOWI0MGNlZDNlMTBhYTBlOWY).
 
 ## Schedule
 
