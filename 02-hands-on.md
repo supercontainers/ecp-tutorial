@@ -13,7 +13,7 @@ ssh <account>@cori.nersc.gov
 Pull an image using shifterimg.  You can pull a standard image such as Ubuntu or an image you pushed to dockerhub in the previous session.
 
 ```bash
-shifterimg pull ubuntu:14.04
+shifterimg pull ubuntu:18.04
 # OR
 shifterimg pull scanon/shanetest:latest
 ```
@@ -23,7 +23,7 @@ shifterimg pull scanon/shanetest:latest
 Use shifter to start a container using the example image or your test image.
 
 ```bash
-shifter --image=ubuntu:14.04 bash
+shifter --image=ubuntu:18.04 bash
 ```
 
 You should be able to browse inside the image and confirm that it matches what you pushed to dockerhub earlier.
@@ -43,7 +43,7 @@ $ exit
 Use SLURM salloc and shifter to use the image on a batch node.
 
 ```bash
-salloc -N 1 -C knl -q interactive -t 1:00:00 --image ubuntu:14.04
+salloc -N 1 -C knl -q interactive -t 1:00:00 --image ubuntu:18.04
 ... wait for prompt ...
 shifter bash
 ```
@@ -64,7 +64,7 @@ cat << EOF > submit.sl
 #!/bin/bash
 #SBATCH -N 1 -C knl
 #SBATCH -q regular
-#SBATCH --image ubuntu:14.04
+#SBATCH --image ubuntu:18.04
 
 srun -N 1 shifter lsb_release -a
 EOF
