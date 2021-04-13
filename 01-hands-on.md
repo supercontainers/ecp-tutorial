@@ -105,7 +105,7 @@ int main(int argc, char** argv) {
 
 Hints:
 
-* You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
+* You can start with the image "nersc/ubuntu-mpi:18.04". It already has MPI installed.
 * You compile with "mpicc helloworld.c -o /app/hello"
 
 <details>
