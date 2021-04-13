@@ -5,13 +5,13 @@
 Pull a public image such as ubuntu or centos using the docker pull command.  If a tag is not specified, docker will default to "latest".
 
 ```bash
-docker pull ubuntu:14.04
+docker pull ubuntu:18.04
 ```
 
 Now run the image using the docker run command.  Use the "-it" option to get an interactive terminal during the run.
 
 ```bash
-docker run -it ubuntu:14.04
+docker run -it ubuntu:18.04
 whoami
 lsb_release -a
 exit
@@ -32,7 +32,7 @@ mkdir mydockerimage
 cd mydockerimage
 ```
 
-Create a simple shell script called `script` in your local directory using your favorite editor.
+Create a simple shell script called `hello` in your local directory using your favorite editor.
 
 ```bash
 #!/bin/bash
@@ -42,14 +42,14 @@ echo "Hello World! -- Me"
 Now create a file called `Dockerfile` in the same directory like the following.  Use your own name and e-mail for the maintainer label.
 
 ```bash
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 LABEL maintainer="patsmith patsmith@patsmith.org"
 
-ADD ./script /bin/script
-RUN mv /bin/script /bin/hello && chmod a+rx /bin/hello
+ADD ./hello /bin/hello
+RUN chmod a+rx /bin/hello
 ```
 
-Now build the image using the docker build command.  Be sure to use the `-t` option to tag it.  Tell the Dockerfile to build using the current directory by specifying `.`.  Alternatively you could place the Dockerfile and script in an alternate location and specify that directory in the docker build command.
+Now build the image using the docker build command.  Be sure to use the `-t` option to tag it.  Tell the Dockerfile to build using the current directory by specifying `.`.  Alternatively you could place the Dockerfile and hello script in an alternate location and specify that directory in the docker build command.
 
 ```bash
 docker build -t hello:1.0 .
@@ -76,7 +76,7 @@ The first push make take some time depending on your network connection and the 
 
 ## Hands on Activity: MPI hello world
 
-Now that you've practiced loading a simple script, try creating an image that can run this short MPI hello word code:
+Now that you've practiced running a simple script, try creating an image that can run this short MPI hello word code:
 
 ```code
 // Hello World MPI app
@@ -115,7 +115,7 @@ Dockerfile:
 
 ```bash
 # MPI Dockerfile
-FROM nersc/ubuntu-mpi:14.04
+FROM nersc/ubuntu-mpi:18.04
 
 ADD helloworld.c /app/
 
