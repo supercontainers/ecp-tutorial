@@ -66,7 +66,7 @@ cat << EOF > submit.sl
 #SBATCH -q regular
 #SBATCH --image ubuntu:18.04
 
-srun -N 1 shifter lsb_release -a
+srun -N 1 shifter cat /etc/os-release
 EOF
 ```
 
