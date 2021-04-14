@@ -114,4 +114,5 @@ mkdir $SCRATCH/input
 echo 3.141592 > $SCRATCH/input/data.txt
 shifter --volume $SCRATCH/input:/data --image=ubuntu bash
 cat /data/data.txt
+exit
 ```
