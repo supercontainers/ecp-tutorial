@@ -60,6 +60,14 @@ Try running the image.
 ```bash
 docker run -it hello:1.0
 hello
+exit
+```
+
+You can also run the command non-interactively.
+
+```bash
+docker run hello:1.0 hello
+hello
 ```
 
 ## Pushing a Dockerfile to dockerhub
@@ -155,6 +163,7 @@ hello from 0 of 10 on 982d980864e5
 hello from 6 of 10 on 982d980864e5
 
 hello from 1 of 10 on 982d980864e5
+exit
 ```
 
 </details>
