@@ -13,7 +13,7 @@ Now run the image using the docker run command.  Use the "-it" option to get an 
 ```bash
 docker run -it ubuntu:18.04
 whoami
-lsb_release -a
+cat /etc/os-release
 exit
 ```
 
