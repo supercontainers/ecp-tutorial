@@ -11,9 +11,9 @@ View this on [GitHub Pages](https://supercontainers.github.io/ecp-tutorial/).
 
 Short Tutorial Session
 
-Venue: ECP Annual Meeting 2021
+Venue: ECP Annual Meeting 2022
 
-Date: Tuesday, April 13, 2019  1:00pm - 2:30pm EDT
+Date: Friday, May 6, 2022  2:30pm - 4:00pm EDT
 
 Location: Remote
 
@@ -76,13 +76,14 @@ We have also created a Slack Team for any and all related HPC container discussi
 
 ## Schedule
 
+Note: times are listed in EDT
 
-13:00 – 13:15 [Introduction to Containers in HPC](https://drive.google.com/file/d/1-Zszgfs3PZZUH88XGHy5TrW6jggyh81W/view?usp=sharing) (Younge)
+2:30 – 2:45 [Introduction to Containers in HPC](https://drive.google.com/file/d/1-Zszgfs3PZZUH88XGHy5TrW6jggyh81W/view?usp=sharing) (Younge)
 
-13:15 – 13:30 [How to build your first Docker container](/01-hands-on.md) (Canon)
+2:45 – 3:00 [How to build your first Docker container](/01-hands-on.md) (Canon)
 
-13:30 – 13:45 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
+3:00 – 3:15 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
 
-13:45 - 14:15 Containers and E4S (Shende)
+3:15 - 3:45 Containers and E4S (Shende)
 
-14:15 - 14:30 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
+3:45 - 4:00 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
