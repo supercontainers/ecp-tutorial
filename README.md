@@ -83,8 +83,6 @@ We have also created a Slack Team for any and all related HPC container discussi
 
 13:30 – 13:45 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
 
-13:45 - 14:05 [How to use Singularity to run on a supercomuter](/03-hands-on.md) (Younge)
+13:45 - 14:15 Containers and E4S (Shende)
 
-14:05 - 14:15 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
-
-14:15 - 14:30 Containers and E4S (Shende)
+14:15 - 14:30 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
