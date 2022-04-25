@@ -116,8 +116,7 @@ Hints:
 * You can start with the image "nersc/ubuntu-mpi:18.04". It already has MPI installed.
 * You compile with "mpicc helloworld.c -o /app/hello"
 
-<details>
-  <summary>Expand to see the answer</summary>
+## Answer
 
 Dockerfile:
 
@@ -166,5 +165,4 @@ hello from 1 of 10 on 982d980864e5
 exit
 ```
 
-</details>
 
