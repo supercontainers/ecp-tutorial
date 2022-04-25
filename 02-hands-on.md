@@ -83,8 +83,8 @@ It is possible to run MPI jobs in Shifter and obtain native performance.  There 
 If you did not do so earlier, tag and push the MPI image you created earlier.
 
 ```bash
-docker tag hellompi mydockerid/hellompi
-docker push mydockerid/hellompi
+aws# docker tag hellompi mydockerid/hellompi
+aws# docker push mydockerid/hellompi
 ```
 
 Now, return to your Cori login, pull your image down and run it.
