@@ -166,3 +166,15 @@ exit
 ```
 
 
+## Suprise: You are using Podman
+
+[Podman](https://podman.io/) is a drop in replacement for Docker.  We have replaced docker with podman on the training
+systems and aliased `docker` to `podman`.  Podman is configured with reduced privileges which provides
+improved security since this doesn't require running a daemon and doesn't require extra privileges
+requires with a typical Docker installation.
+
+```bash
+(base) [tutorial@ip-172-31-3-250 ~]$ docker --version
+podman version 3.0.1
+```
+
