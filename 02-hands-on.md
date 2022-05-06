@@ -92,12 +92,11 @@ Now, return to your Cori login, pull your image down and run it.
 ```bash
 shifterimg pull <mydockerid>/hellompi:latest
 #Wait for it to complete
-salloc -N 2 -C knl -q interactive --image <mydockerid>/hellompi:latest
+salloc -N 2 -C knl -q interactive --image scanon/hello:18
 # Wait for prepare_compilation_report
 # Cori has 32 physical cores per node with 2 hyper-threads per core.
 # So you can run up to 64 tasks per node.
-# To get MPI support with this image version you need to specify a shifter module
-srun -N 2 -n 128 shifter --module=mpich-cle6 /app/hello
+srun -N 2 -n 128 shifter /app/hello
 exit
 ```
 
