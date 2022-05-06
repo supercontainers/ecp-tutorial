@@ -78,7 +78,7 @@ We have also created a Slack Team for any and all related HPC container discussi
 
 Note: times are listed in EDT
 
-2:30 – 2:45 [Introduction to Containers in HPC](https://drive.google.com/file/d/1-Zszgfs3PZZUH88XGHy5TrW6jggyh81W/view?usp=sharing) (Younge)
+2:30 – 2:45 [Introduction to Containers in HPC](https://drive.google.com/file/d/1KNnrpJI24u2XeL9GTg2HXkV_RHeupD6r/view?usp=sharing) (Younge)
 
 2:45 – 3:00 [How to build your first Docker container](/01-hands-on.md) (Canon)
 
@@ -86,4 +86,4 @@ Note: times are listed in EDT
 
 3:15 - 3:45 Containers and E4S (Shende)
 
-3:45 - 4:00 [Best Practices and Wrap Up](https://drive.google.com/file/d/1T1xJzcV1HcCR0sNerGX67zRTX-dt4CdJ/view?usp=sharing) (Canon)
+3:45 - 4:00 [Best Practices and Wrap Up](https://drive.google.com/file/d/1Rj2PxSwUHsAC1YtgTo40mod3gFeuYxoN/view?usp=sharing) (Canon)
